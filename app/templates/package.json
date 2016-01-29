@@ -1,0 +1,50 @@
+{
+  "name": "<%= repo %>",
+  "version": "1.0.0",
+  "description": "<%- description %>",
+  "author": "<%- author %>",
+  "license": "MIT",
+  "main": "lib/<%= repo %>.min.js",
+  "keywords": [
+    "library",
+    "umd",
+    "es6",
+    "boilerplate",
+    "kit",
+    "starter",
+    "babel",
+    "universal",
+    "eslint"
+  ],
+  "scripts": {
+    "start": "npm run dev",
+    "build": "NODE_ENV=production webpack --progress",
+    "dev": "NODE_ENV=development webpack --progress --watch",
+    "lint": "eslint .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "library": {
+    "name": "<%= repo %>",
+    "entry": "<%= repo %>.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/<%= user %>/<%= repo %>.git"
+  },
+  "bugs": {
+    "url": "https://github.com/<%= user %>/<%= repo %>/issues"
+  },
+  "homepage": "https://github.com/<%= user %>/<%= repo %>",
+  "devDependencies": {
+    "babel-core": "^6.4.5",
+    "babel-eslint": "^4.1.6",
+    "babel-loader": "^6.2.1",
+    "babel-plugin-add-module-exports": "^0.1.2",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-stage-0": "^6.3.13",
+    "clean-webpack-plugin": "^0.1.7",
+    "eslint": "^1.10.3",
+    "eslint-loader": "^1.2.1",
+    "webpack": "^1.12.12"
+  }
+}

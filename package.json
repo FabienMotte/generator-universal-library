@@ -1,0 +1,48 @@
+{
+  "name": "generator-universal-library",
+  "version": "1.0.0",
+  "description": "A universal library generator",
+  "author": "Fabien Motte <contact@fabienmotte.com>",
+  "main": "app/index.js",
+  "license": "MIT",
+  "preferGlobal": true,
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fabienmotte/generator-universal-library.git"
+  },
+  "bugs": {
+    "url": "https://github.com/fabienmotte/generator-universal-library/issues"
+  },
+  "homepage": "https://github.com/fabienmotte/generator-universal-library",
+  "keywords": [
+    "yeoman-generator",
+    "generator",
+    "library",
+    "umd",
+    "es6",
+    "boilerplate",
+    "kit",
+    "starter",
+    "babel",
+    "universal",
+    "eslint"
+  ],
+  "files": [
+    "app"
+  ],
+  "dependencies": {
+    "bluebird": "^3.1.5",
+    "chalk": "^1.1.1",
+    "file": "^0.2.2",
+    "lodash.kebabcase": "^3.1.1",
+    "lodash.trim": "^4.0.1",
+    "yeoman-generator": "^0.22.5",
+    "yosay": "^1.1.0"
+  },
+  "devDependencies": {
+    "mocha": "^2.4.5"
+  }
+}
