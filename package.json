@@ -1,6 +1,6 @@
 {
   "name": "generator-universal-library",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A universal library generator",
   "author": "Fabien Motte <contact@fabienmotte.com>",
   "main": "app/index.js",

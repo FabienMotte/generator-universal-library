@@ -16,7 +16,7 @@ const outputPath = path.resolve( __dirname, 'lib' );
 const plugins = [ new CleanWebpackPlugin( [outputPath] ) ];
 
 if ( PROD ) {
-  plugins.push( new webpack.optimize.UglifyJsPlugin( { minimize: true } ) );
+  plugins.push( new webpack.optimize.UglifyJsPlugin( { minimize: true, sourceMap: false } ) );
   outputName = `${libraryName}.min.js`;
 } else {
   outputName = `${libraryName}.js`;
